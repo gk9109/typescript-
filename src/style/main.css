@@ -1,0 +1,23 @@
+#root {
+    background-color: #4a2f4d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    margin: 0;
+    
+}
+
+#root .tags {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0;
+}

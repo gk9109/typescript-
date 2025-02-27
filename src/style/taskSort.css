@@ -1,0 +1,19 @@
+.sort-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+  
+.sort-dropdown {
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+label {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}

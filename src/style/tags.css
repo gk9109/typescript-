@@ -1,0 +1,11 @@
+.tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: solid black 2px; */
+    margin-bottom: 15px;
+}
+
+.tags button {
+    border: solid black 2px;
+}

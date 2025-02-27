@@ -1,0 +1,80 @@
+.form-cont {
+    display: flex;
+    flex-direction: column;
+    border: solid black 2px;
+    border-radius: 20px;
+    background-color:maroon;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin: 5px;
+    height: 35px;
+    width: 350px;
+}
+
+form button {
+    margin: 10px;
+}
+
+/* ------------------------------------------------ */
+.task-card-cont {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-card {
+    margin: 5px;
+    color: black;
+    border: solid black 2px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: solid black 2px;
+    margin: 5px;
+}
+
+/* Background for completed tasks */
+.completed-task {
+   background-color: #d4edda; /* Light green */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* -------------------------------------------------------------- */
+/* Priority colors */
+.low {
+    background-color: green;
+    font-weight: bold;
+}
+  
+.medium {
+  background-color: orange;
+  font-weight: bold;
+}
+
+.high {
+  background-color: red;
+  font-weight: bold;
+}
+  
